@@ -40,5 +40,5 @@ set undofile
 
 set backspace=indent,eol,start
 hi MatchParen ctermbg=1
-autocmd BufNewFile *.cpp 0r ~/.vim/templates/skeleton.cpp
+autocmd BufNewFile *.cpp 0r ~/dotfiles/competitive.cpp
 

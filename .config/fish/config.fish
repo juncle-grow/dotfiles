@@ -6,4 +6,5 @@ alias vimrc='vim ~/.vimrc'
 
 ln -s ~/dotfiles/.config ~
 ln -s ~/dotfiles/.gitconfig ~
+ln -s ~/dotfiles/.gitignore ~
 ln -s ~/dotfiles/.vimrc ~
