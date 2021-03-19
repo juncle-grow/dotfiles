@@ -3,3 +3,5 @@
 [user]
 	name = junclegrow
 	email = juncle_grow@outlook.com
+[core]
+	excludesfile = /Users/yuyafurukawa/.gitignore_global

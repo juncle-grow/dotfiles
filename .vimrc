@@ -5,11 +5,13 @@ call vundle#begin()
 
 Plugin 'vim-airline/vim-airline'
 Plugin 'rust-lang/rust.vim'
+Bundle 'OmniSharp/omnisharp-vim'
 
 call vundle#end()
 
 filetype plugin indent on
 syntax on
+
 let mapleader = "\<Space>"
 " Quickly insert an empty new line without entering insert mode
     nnoremap <Leader>o o<Esc>
@@ -17,6 +19,7 @@ let mapleader = "\<Space>"
     nnoremap <Leader>vr :e ~/.vimrc<Enter>
     nnoremap <Leader>rf :RustFmt<Enter>
     nnoremap <Leader>tn <C-\><C-n>
+
 set number
 set ruler
 set encoding=utf-8
@@ -50,7 +53,6 @@ set clipboard+=unnamed
 
 set ignorecase
 set smartcase
-set undofile
 
 set backspace=indent,eol,start
 hi MatchParen ctermbg=1
